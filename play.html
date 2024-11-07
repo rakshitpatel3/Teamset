@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Set!</title>
+    <script src="logic.js" defer></script>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10" defer></script>
+
+</head>
+    <body>
+    <div id="play-page">
+        <div class="parent">
+            <div class="sidebar">
+                <div class="data">
+                    <h2 id="userinfo"></h2>
+                    <h2>Score: <span id="chart">0</span></h2>
+                    <h2>Time: <span id="playerinfo">0</span></h2>
+                    <button class = "buttonss" id="pauseButton">Pause</button>
+                    <button class = "buttonss" id="resumeButton" style="display: none;">Resume</button>
+                    <button class="buttonss" id="new-game-button">New Game</button>
+                    <button class="buttonss" id="hint-button">Get Hint</button>
+                </div>
+            </div>
+            <div id="game-container" class="game-container"></div> <!-- Container for cards -->
+
+
+            </div>
+    </div>
+</body>
+</html>
